@@ -13,7 +13,7 @@ package.domain = org.wiseplat
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-#source.include_exts = py,png,jpg,kv,atlas,po,mo,ico
+#source.include_exts = py,png,jpg,kv,atlas,po,mo,ico,mp3
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -88,7 +88,7 @@ fullscreen = 1
 #android.presplash_lottie = "path/to/lottie/file.json"
 
 # (list) Permissions
-#android.permissions = INTERNET
+#android.permissions = ACCESS_NETWORK_STATE
 
 # (list) features (adds uses-feature -tags to manifest)
 #android.features = android.hardware.usb.host
